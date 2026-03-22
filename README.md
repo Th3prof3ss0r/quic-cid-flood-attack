@@ -5,7 +5,6 @@
 [![Rust](https://img.shields.io/badge/rust-1.75%2B-orange)](https://www.rust-lang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![RFC 9000](https://img.shields.io/badge/RFC-9000-green)](https://www.rfc-editor.org/rfc/rfc9000)
-[![CI](https://github.com/Th3prof3ss0r/quic-cid-flood-attack/actions/workflows/ci.yml/badge.svg)]
 
 ---
 
