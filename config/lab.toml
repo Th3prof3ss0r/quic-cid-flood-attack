@@ -1,0 +1,27 @@
+# ═══════════════════════════════════════════════════════════════
+#  QUIC CID Flood Lab — Configuração do Experimento
+#  Uso exclusivo em ambiente de laboratório físico isolado
+# ═══════════════════════════════════════════════════════════════
+
+[target]
+ip   = "192.168.1.100"   # IP do servidor QUIC no lab
+port = 443               # Porta QUIC (padrão HTTP/3)
+
+[attack]
+# "raw"    = Vetor 1: Raw CID UDP Flood
+# "frames" = Vetor 2: NEW_CONNECTION_ID Frame Flood
+# "both"   = Ambos os vetores simultaneamente
+vector = "both"
+
+duration_secs = 60       # Duração total do experimento (segundos)
+cid_len       = 20       # Comprimento do CID em bytes [1-20] (RFC 9000 máx: 20)
+workers       = 8        # Workers paralelos para raw flood
+rate_pps      = 100000   # Pacotes/s por worker (ajuste conforme NIC do lab)
+
+[frames_flood]
+connections  = 100       # Conexões QUIC legítimas simultâneas
+ids_per_conn = 1000      # Frames NEW_CONNECTION_ID por conexão
+
+[metrics]
+sample_interval_ms = 100                    # Frequência de amostragem (ms)
+output_csv         = "results/exp_001.csv"  # Arquivo de saída para análise
