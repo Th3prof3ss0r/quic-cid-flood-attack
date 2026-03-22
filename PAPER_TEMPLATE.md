@@ -1,11 +1,6 @@
 # QUIC Connection ID Flooding: Análise Experimental de Vulnerabilidades no Protocolo de Próxima Geração
 
-**[Nome do Autor]**
-[Instituição de Ensino]
-[E-mail institucional]
-
-**Orientador:** [Nome do Orientador]
-[Departamento / Programa de Pós-Graduação]
+**Rafael Santos**
 
 ---
 
