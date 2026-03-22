@@ -1,0 +1,14 @@
+# Build artifacts
+/target/
+
+# Results (dados experimentais — adicionar manualmente ao commit se desejado)
+results/*.csv
+
+# Certificados do laboratório (nunca commitar chaves privadas)
+lab-certs/
+
+# Configurações locais
+*.local.toml
+
+# Logs
+*.log
