@@ -341,16 +341,3 @@ This tool supports testing the following mitigations (by observing their effect 
 MIT License — see [LICENSE](LICENSE) for details.
 
 ---
-
-## Citation
-
-If you use this tool in academic work, please cite:
-
-```bibtex
-@software{quic_cid_flood_attack_2026,
-  title  = {quic-cid-flood-attack: A QUIC Connection ID Flooding Research Tool},
-  year   = {2026},
-  note   = {Academic security research tool for QUIC protocol vulnerability analysis},
-  url    = {https://github.com/<your-org>/quic-cid-flood-lab}
-}
-```
